@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "name": "BlogSample",
+  "description": "参考 [VuePress从零开始](https://segmentfault.com/a/1190000020097643)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress": "^2.0.0-beta.60"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdebug/BlogSample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itdebug/BlogSample/issues"
+  },
+  "homepage": "https://github.com/itdebug/BlogSample#readme"
+}
