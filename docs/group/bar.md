@@ -1,3 +1,0 @@
-# Bar
-
-bar.md

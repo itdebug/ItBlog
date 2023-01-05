@@ -1,8 +1,8 @@
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default {
-    title: '技术人休憩站',
-    description: '技术人休憩站',
+    title: 'Long Long Ago',
+    description: '很久很久以前',
     head: [
         ['link', { rel: 'icon', href: '/images/logo.jpg' }]
     ],
@@ -11,39 +11,44 @@ export default {
         navbar: [
             // NavbarItem
             {
-                text: 'Foo',
+                text: 'Java',
                 link: '/',
             },
             // NavbarGroup
             {
-                text: 'Group',
-                children: ['/group/foo.md', '/group/bar.md'],
+                text: 'Spring',
+                children: [
+                    {
+                        text: 'Spring 手撸专栏',
+                        link: '/md/spring/develop-spring/001.md'
+                        // link: 'https://mp.weixin.qq.com/s/olrwapkSTQMyIGpR10ZDzA'
+                    }],
             },
-            // 字符串 - 页面文件路径
-            '/bar/README.md',
+            {
+                text: '部署',
+                link: '/',
+            },
         ],
-        sidebar: [
-            ['/', '简介'],
-            {
-                text: "车商通",
-                collapsable: false,
-                children: [
-                    ['/cst/cst.md', '车商通'],
-                    ['/cst/draft.md', '草稿箱'],
-                    ['/cst/esc.md', '二手车']
-                ]
-            },
-            {
-                text: "新框架",
-                collapsable: true,
-                children: [
-                    ['/new/testindex1.md', '发布新框架'],
-                    ['/new/local/entry.md', '本地开发'],
-                    ['/new/feedback/feedback.md', '问题反馈']
-                ]
-            },
+        sidebar: {
+            '/md/spring/develop-spring/': [
+                {
+                    text: '介绍',
+                    collapsible: false,
+                    children: [{
+                        text: 'Spring 手撸专栏',
+                        link: '/md/spring/develop-spring/002.md'
+                    }],
+                },
 
-            ['/feedback/feedback.md', '问题反馈']
-        ]
+                {
+                    text: '计划',
+                    collapsible: false,
+                    children: [{
+                        text: '2023计划',
+                        link: '/md/spring/develop-spring/003.md'
+                    }],
+                },
+            ],
+        },
     })
 }

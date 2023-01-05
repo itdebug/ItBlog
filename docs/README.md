@@ -1,18 +1,23 @@
 ---   
 home: true
-heroImage: https://vuejs.org/images/logo.png
+heroImage: /images/home.png
+heroHeight: 200
+heroText:
+tagline: 在很久以前,我差点忘记了学习,还好当前没有停下脚步
 actions:
-  - text: 快速上手
-    link: /zh/guide/getting-started.html
+  - text: 开始阅读
+    link: /md/other/guide-to-reading.md
     type: primary
-  - text: 项目简介
-    link: /guide/
+  - text: 学习路线
+    link: /md/other/road-map.md
     type: secondary
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 闻鸡起舞
+  details: 三更灯火五更鸡，正是男儿读书时
+- title: 一往无前
+  details: 一日不读书，胸臆无佳想
+- title: 坚持不懈
+  details: 一月不读书，耳目失精爽
+
+footer: 必看项目
 ---
