@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"Long Long Ago\",\"description\":\"很久很久以前\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/logo.jpg\"}]],\"locales\":{}}")
