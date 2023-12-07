@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-02fa11d6\",\"path\":\"/md/spring/develop-spring/002.html\",\"title\":\"我是002\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"md/spring/develop-spring/002.md\"}")

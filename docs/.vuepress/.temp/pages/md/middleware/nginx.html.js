@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-6bc8b8c6\",\"path\":\"/md/middleware/nginx.html\",\"title\":\"nginxWebUI\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1673189436000,\"contributors\":[{\"name\":\"rklu\",\"email\":\"17621698246@163.com\",\"commits\":1}]},\"filePathRelative\":\"md/middleware/nginx.md\"}")
