@@ -1,8 +1,8 @@
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default {
-    title: 'Long Long Ago',
-    description: '很久很久以前',
+    title: '编程哥 | 编程进阶之路',
+    description: '记录学习过程，总结学习经验',
     head: [
         ['link', { rel: 'icon', href: '/images/logo.jpg' }]
     ],

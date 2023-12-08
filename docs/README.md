@@ -3,7 +3,7 @@ home: true
 heroImage: /images/home.png
 heroHeight: 200
 heroText:
-tagline: 在很久以前,我差点忘记了学习,还好当前没有停下脚步
+tagline: 记录学习过程，总结学习经验
 actions:
   - text: 开始阅读
     link: /md/other/guide-to-reading.md
