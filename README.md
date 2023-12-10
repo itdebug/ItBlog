@@ -13,3 +13,4 @@ VuePress 由两部分组成：一个以 Vue 驱动的主题系统的简约静态
 # TODO
 1、gitignore文章
 2、vuepress主题文章
+3、github首页主题文章
